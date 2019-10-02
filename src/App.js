@@ -7,7 +7,7 @@ class App extends Component {
   render() {
     return (
       <Switch>
-        <Route path="/" render={(props) => (
+        <Route path="/" exact render={(props) => (
           <HomePage {...props} />
         )} />
       </Switch>

@@ -19,7 +19,7 @@ module.exports = {
             'react',
             'stage-0',
             ['env', {
-              target: { browsers: ['last 2 versions']}
+              target: { browsers: ['last 2 versions'] }
             }]
           ]
         }
